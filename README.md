@@ -10,6 +10,12 @@ After that, you have to run **face_recognizer.py** to train customised LBPH clas
 
 At last, use **streamlit run app.py** command to run the actual app on local host. You are done !!
 
+## Haar Cascade Classifier:
+
+I have used pre-trained haar cascade classifier for identifying face of the person sitting in front of webcam.
+
+Haar Cascade Classifier is cascade based classifier which uses ensemble learning(Adaboost) to detect features. Each cascade is responsible for detecting particular feature in frame or image(eye,nose,mouth etc.). Since it uses boosting algorithm, it detects face only if all features in the face(learnt during training) is found in particular region of image or frame of video.
+
 ### Note:
 
 If you face any kind of problems, don't hesitate to contact me !
